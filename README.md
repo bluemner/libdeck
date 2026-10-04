@@ -9,6 +9,15 @@ The goal of this project is to display HID inputs for project [Blurrg](https://g
 > **Note:** This code is still in **alpha**, there will be bugs and other issues.
 >  The Application Binary Interface (ABI) is not yet finalized. Expect changes before stable release.
 
+### Main window
+![main](./img/deck01.png)
+
+### Input Events
+![highlight](./img/deck02.png)
+
+### Settings menu
+![menu](./img/deck03.png)
+
 
 ## Setup
 
