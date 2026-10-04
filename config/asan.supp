@@ -1,0 +1,12 @@
+# ASAN_OPTIONS=suppressions=./config/asan.supp
+# Suppress all leaks originating from the GLib library itself
+leak:libglib-2.0.so
+leak:libgobject-2.0.so
+leak:libgio-2.0.so
+leak:libnvidia-glcore.so
+
+# Specific GLib/GObject internal functions known for one-time allocations
+leak:g_type_register_static
+leak:g_param_spec_internal
+leak:g_signal_new
+leak:g_thread_new
